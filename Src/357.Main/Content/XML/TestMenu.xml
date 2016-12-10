@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Menu>
+  <Axis>Y</Axis>
+  
+  <Item>
+    <LinkType>Menu</LinkType>
+    <LinkID>Content/XML/TitleMenu.xml</LinkID>
+    <Image>
+      <Text>Blah</Text>
+    </Image>
+  </Item>
+  
+  <Item>
+    <Image>
+      <Text>Fun</Text>
+    </Image>
+  </Item>
+  
+  <Item>
+    <Image>
+      <Text>CodingMadeEasy</Text>
+    </Image>
+  </Item>
+  
+  <Item>
+    <Image>
+      <Text>July</Text>
+    </Image>
+  </Item>
+</Menu>

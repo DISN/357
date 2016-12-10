@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SplashScreen>
+  <Image>
+    <Path>Graphics/Random2</Path>
+    <Alpha>0.5</Alpha>
+    <Position>
+      <X>180</X>
+      <Y>120</Y>
+    </Position>
+  </Image>
+</SplashScreen>

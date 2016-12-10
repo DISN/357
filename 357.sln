@@ -1,0 +1,120 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "357.Main", "Src\357.Main\357.Main.csproj", "{4C582349-0922-40F4-A8F3-64BD49BC067E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{7FB08B34-C742-462E-BF39-9ED7DBBC6FF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extern", "Extern", "{1F25DF3F-B784-407E-966A-652B6A172412}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MonoGame", "MonoGame", "{61D7A624-DC11-4917-A017-BDFC7B2E3E4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WindowsGL", "WindowsGL", "{B0797C1C-A3DC-4AAB-9FB9-5970CAA882E6}"
+	ProjectSection(SolutionItems) = preProject
+		Libs\Extern\MonoGame\WindowsGL\Lidgren.Network.dll = Libs\Extern\MonoGame\WindowsGL\Lidgren.Network.dll
+		Libs\Extern\MonoGame\WindowsGL\MonoGame.Framework.dll = Libs\Extern\MonoGame\WindowsGL\MonoGame.Framework.dll
+		Libs\Extern\MonoGame\WindowsGL\OpenTK.dll = Libs\Extern\MonoGame\WindowsGL\OpenTK.dll
+		Libs\Extern\MonoGame\WindowsGL\SDL.dll = Libs\Extern\MonoGame\WindowsGL\SDL.dll
+		Libs\Extern\MonoGame\WindowsGL\Tao.Sdl.dll = Libs\Extern\MonoGame\WindowsGL\Tao.Sdl.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "357.System", "Src\357.System\357.System.csproj", "{20A92891-1CB5-4E0D-BAAF-3C4890F067A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharpDX_2.5", "SharpDX_2.5", "{B7E7E856-C9B9-4296-BCF4-51767E300F3D}"
+	ProjectSection(SolutionItems) = preProject
+		Libs\Extern\SharpDX_2.5\SharpDX.Direct2D1.dll = Libs\Extern\SharpDX_2.5\SharpDX.Direct2D1.dll
+		Libs\Extern\SharpDX_2.5\SharpDX.Direct3D11.dll = Libs\Extern\SharpDX_2.5\SharpDX.Direct3D11.dll
+		Libs\Extern\SharpDX_2.5\SharpDX.Direct3D9.dll = Libs\Extern\SharpDX_2.5\SharpDX.Direct3D9.dll
+		Libs\Extern\SharpDX_2.5\SharpDX.dll = Libs\Extern\SharpDX_2.5\SharpDX.dll
+		Libs\Extern\SharpDX_2.5\SharpDX.DXGI.dll = Libs\Extern\SharpDX_2.5\SharpDX.DXGI.dll
+		Libs\Extern\SharpDX_2.5\SharpDX.MediaFoundation.dll = Libs\Extern\SharpDX_2.5\SharpDX.MediaFoundation.dll
+		Libs\Extern\SharpDX_2.5\SharpDX.RawInput.dll = Libs\Extern\SharpDX_2.5\SharpDX.RawInput.dll
+		Libs\Extern\SharpDX_2.5\SharpDX.XAudio2.dll = Libs\Extern\SharpDX_2.5\SharpDX.XAudio2.dll
+		Libs\Extern\SharpDX_2.5\SharpDX.XInput.dll = Libs\Extern\SharpDX_2.5\SharpDX.XInput.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MonoGameEditor", "MonoGameEditor", "{23560AC9-F7FF-45EE-BA85-96C09DBAA8E1}"
+	ProjectSection(SolutionItems) = preProject
+		Libs\Extern\MonoGameEditor\MonoGame.Framework.dll = Libs\Extern\MonoGameEditor\MonoGame.Framework.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "44.System", "Src\44.System\44.System.csproj", "{3155B5DA-4088-437B-BD54-33AA62D0750C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		DebugNoGameEditor|Any CPU = DebugNoGameEditor|Any CPU
+		DebugNoGameEditor|Mixed Platforms = DebugNoGameEditor|Mixed Platforms
+		DebugNoGameEditor|x86 = DebugNoGameEditor|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C582349-0922-40F4-A8F3-64BD49BC067E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C582349-0922-40F4-A8F3-64BD49BC067E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C582349-0922-40F4-A8F3-64BD49BC067E}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{4C582349-0922-40F4-A8F3-64BD49BC067E}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{4C582349-0922-40F4-A8F3-64BD49BC067E}.Debug|x86.ActiveCfg = Debug|x86
+		{4C582349-0922-40F4-A8F3-64BD49BC067E}.Debug|x86.Build.0 = Debug|x86
+		{4C582349-0922-40F4-A8F3-64BD49BC067E}.DebugNoGameEditor|Any CPU.ActiveCfg = DebugNoGameEditor|Any CPU
+		{4C582349-0922-40F4-A8F3-64BD49BC067E}.DebugNoGameEditor|Any CPU.Build.0 = DebugNoGameEditor|Any CPU
+		{4C582349-0922-40F4-A8F3-64BD49BC067E}.DebugNoGameEditor|Mixed Platforms.ActiveCfg = DebugNoGameEditor|x86
+		{4C582349-0922-40F4-A8F3-64BD49BC067E}.DebugNoGameEditor|Mixed Platforms.Build.0 = DebugNoGameEditor|x86
+		{4C582349-0922-40F4-A8F3-64BD49BC067E}.DebugNoGameEditor|x86.ActiveCfg = DebugNoGameEditor|x86
+		{4C582349-0922-40F4-A8F3-64BD49BC067E}.DebugNoGameEditor|x86.Build.0 = DebugNoGameEditor|x86
+		{4C582349-0922-40F4-A8F3-64BD49BC067E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C582349-0922-40F4-A8F3-64BD49BC067E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C582349-0922-40F4-A8F3-64BD49BC067E}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{4C582349-0922-40F4-A8F3-64BD49BC067E}.Release|Mixed Platforms.Build.0 = Release|x86
+		{4C582349-0922-40F4-A8F3-64BD49BC067E}.Release|x86.ActiveCfg = Release|x86
+		{4C582349-0922-40F4-A8F3-64BD49BC067E}.Release|x86.Build.0 = Release|x86
+		{20A92891-1CB5-4E0D-BAAF-3C4890F067A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20A92891-1CB5-4E0D-BAAF-3C4890F067A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20A92891-1CB5-4E0D-BAAF-3C4890F067A3}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{20A92891-1CB5-4E0D-BAAF-3C4890F067A3}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{20A92891-1CB5-4E0D-BAAF-3C4890F067A3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{20A92891-1CB5-4E0D-BAAF-3C4890F067A3}.Debug|x86.Build.0 = Debug|Any CPU
+		{20A92891-1CB5-4E0D-BAAF-3C4890F067A3}.DebugNoGameEditor|Any CPU.ActiveCfg = DebugNoGameEditor|Any CPU
+		{20A92891-1CB5-4E0D-BAAF-3C4890F067A3}.DebugNoGameEditor|Any CPU.Build.0 = DebugNoGameEditor|Any CPU
+		{20A92891-1CB5-4E0D-BAAF-3C4890F067A3}.DebugNoGameEditor|Mixed Platforms.ActiveCfg = DebugNoGameEditor|Any CPU
+		{20A92891-1CB5-4E0D-BAAF-3C4890F067A3}.DebugNoGameEditor|Mixed Platforms.Build.0 = DebugNoGameEditor|Any CPU
+		{20A92891-1CB5-4E0D-BAAF-3C4890F067A3}.DebugNoGameEditor|x86.ActiveCfg = DebugNoGameEditor|Any CPU
+		{20A92891-1CB5-4E0D-BAAF-3C4890F067A3}.DebugNoGameEditor|x86.Build.0 = DebugNoGameEditor|Any CPU
+		{20A92891-1CB5-4E0D-BAAF-3C4890F067A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20A92891-1CB5-4E0D-BAAF-3C4890F067A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20A92891-1CB5-4E0D-BAAF-3C4890F067A3}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{20A92891-1CB5-4E0D-BAAF-3C4890F067A3}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{20A92891-1CB5-4E0D-BAAF-3C4890F067A3}.Release|x86.ActiveCfg = Release|Any CPU
+		{20A92891-1CB5-4E0D-BAAF-3C4890F067A3}.Release|x86.Build.0 = Release|Any CPU
+		{3155B5DA-4088-437B-BD54-33AA62D0750C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3155B5DA-4088-437B-BD54-33AA62D0750C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3155B5DA-4088-437B-BD54-33AA62D0750C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{3155B5DA-4088-437B-BD54-33AA62D0750C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{3155B5DA-4088-437B-BD54-33AA62D0750C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3155B5DA-4088-437B-BD54-33AA62D0750C}.DebugNoGameEditor|Any CPU.ActiveCfg = Debug|Any CPU
+		{3155B5DA-4088-437B-BD54-33AA62D0750C}.DebugNoGameEditor|Any CPU.Build.0 = Debug|Any CPU
+		{3155B5DA-4088-437B-BD54-33AA62D0750C}.DebugNoGameEditor|Mixed Platforms.ActiveCfg = DebugNoGameEditor|Any CPU
+		{3155B5DA-4088-437B-BD54-33AA62D0750C}.DebugNoGameEditor|Mixed Platforms.Build.0 = DebugNoGameEditor|Any CPU
+		{3155B5DA-4088-437B-BD54-33AA62D0750C}.DebugNoGameEditor|x86.ActiveCfg = Debug|Any CPU
+		{3155B5DA-4088-437B-BD54-33AA62D0750C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3155B5DA-4088-437B-BD54-33AA62D0750C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3155B5DA-4088-437B-BD54-33AA62D0750C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3155B5DA-4088-437B-BD54-33AA62D0750C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{3155B5DA-4088-437B-BD54-33AA62D0750C}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1F25DF3F-B784-407E-966A-652B6A172412} = {7FB08B34-C742-462E-BF39-9ED7DBBC6FF4}
+		{61D7A624-DC11-4917-A017-BDFC7B2E3E4F} = {1F25DF3F-B784-407E-966A-652B6A172412}
+		{B7E7E856-C9B9-4296-BCF4-51767E300F3D} = {1F25DF3F-B784-407E-966A-652B6A172412}
+		{23560AC9-F7FF-45EE-BA85-96C09DBAA8E1} = {1F25DF3F-B784-407E-966A-652B6A172412}
+		{B0797C1C-A3DC-4AAB-9FB9-5970CAA882E6} = {61D7A624-DC11-4917-A017-BDFC7B2E3E4F}
+	EndGlobalSection
+EndGlobal
